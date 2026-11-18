@@ -20,10 +20,8 @@ This page was built by a Blade view.
 http://localhost:8000/hello/<marquee>EBob -->
 Hello <marquee>Bob!
 This page was built by a Blade view.
-Ex6
 Q5 
  Columns: 7  
-
   Column: Type  
   id integer, autoincrement integer  
   name varchar varchar  
@@ -32,3 +30,5 @@ Q5
   status varchar  'waiting' varchar  
   created_at datetime, nullable  datetime  
   updated_at datetime, nullable  datetime 
+Q6
+   Illuminate\Database\Eloquent\MassAssignmentException  Add [name] to fillable property to allow mass assignment on [App\Models\Ticket].
